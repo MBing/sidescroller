@@ -39,8 +39,8 @@ function SideScroller(canvas) {
 	// Clears the canvas and makes place for a new frame
 	function clear() {
 		
-		context.fillStyle = "white";
-		context.fillRect(0, 0, canvas.width, canvas.height);
+		ctx.fillStyle = "white";
+		ctx.fillRect(0, 0, canvas.width, canvas.height);
 	}
 	
 	// Updates the position of the stuff or whatever its gonna do
