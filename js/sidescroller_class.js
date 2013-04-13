@@ -61,7 +61,6 @@ function SideScroller(canvas) {
 			return;
 		}
 		
-		console.log("hi");
 		var beforeTime = performance.now();
 		
 		clear();
