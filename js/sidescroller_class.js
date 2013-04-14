@@ -5,12 +5,10 @@ SideScroller arguments:
 canvas - the canvas to draw on, can be any valid argument for the jQuery object
 ***************************/
 function SideScroller(canvas) {
-
+	// amount of time taken to draw last frame
 	var delayTime,
 	    // Future animation for browsers that lack requestAnimationFrame
 	    FPS = 60,
-		// amount of time taken to draw last frame
-		delayTime,
 		// canvas to draw on
 		canvas = $(canvas)[0],
 		// canvas context
