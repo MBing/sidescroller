@@ -6,7 +6,7 @@ canvas - the canvas to draw on, can be any valid argument for the jQuery object
 ***************************/
 function SideScroller(canvas) {
 	// amount of time taken to draw last frame
-	var delayTime,
+	var delayTime = 0,
 	    // Future animation for browsers that lack requestAnimationFrame
 	    FPS = 60,
 		// canvas to draw on
@@ -73,6 +73,8 @@ function SideScroller(canvas) {
 	
 	// Start the game
 	this.start = function() {
+		
+		previousFrame = 0;
 		
 		running = true;
 		
