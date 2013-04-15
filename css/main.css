@@ -2,6 +2,13 @@
 	outline: none;
 }
 
+canvas {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 /* Error Messages */
 ;
 	 div.error-msg {
