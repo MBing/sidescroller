@@ -1,17 +1,16 @@
-:focus { outline : none; };
+:focus {
+	outline: none;
+}
 
 /* Error Messages */
-div.error-msg {
+;
+	 div.error-msg {
 	margin-bottom: 15px;
 	padding: 2px;
 	padding-left: 15px;
 	color: #b94a48;
 	background-color: #f2dede;
 	border-color: #eed3d7;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
 	border-radius: 5px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
