@@ -60,6 +60,7 @@ function SideScroller(canvas) {
 		}
 		
 		var beforeTime = performance.now();
+		var frameDelay = previousFrame?beforeTime-previousFrame:0;
 		
 		clear();
 		update();
@@ -74,7 +75,7 @@ function SideScroller(canvas) {
 	// Start the game
 	this.start = function() {
 		
-		previousFrame = 0;
+		previousFrame = null;
 		
 		running = true;
 		
