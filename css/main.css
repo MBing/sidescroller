@@ -10,8 +10,8 @@ canvas {
 }
 
 /* Error Messages */
-;
-	 div.error-msg {
+
+div.error-msg {
 	margin-bottom: 15px;
 	padding: 2px;
 	padding-left: 15px;
